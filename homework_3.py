@@ -2,4 +2,17 @@
 # Used 'try' 'except' and 'else' and loop 'while'
 
 def ask():
-    pass()
+    while True:
+        try:
+            ask = int(input('Введите целое число: '))
+
+        except:
+            print('Похоже вы ввели не целое число!')
+            continue
+        else:
+            print(ask**2)
+        break
+
+ask()
+
+
