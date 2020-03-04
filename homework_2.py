@@ -3,8 +3,10 @@
 x = 5
 y = 0
 
+
 try:
-    print(z = x/y)
+    z = x/y
+    print(z)
 except:
     print('На ноль делить нельзя!')
 finally:
